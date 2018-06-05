@@ -28,11 +28,11 @@ time_to_study += datetime.timedelta(hours=0, minutes=0)  # Work Session: Print v
 time_to_study += datetime.timedelta(hours=0, minutes=0)  # Control Flow: If Statements & While Loops 4:30
 time_to_study += datetime.timedelta(hours=0, minutes=0)  # Deep Debugging
 time_to_study += datetime.timedelta(hours=0, minutes=0)  # Work Session: Mad Libs Generator
-time_to_study += datetime.timedelta(hours=3, minutes=50)  # Structured Data: Lists & For Loops
-time_to_study += datetime.timedelta(hours=4, minutes=0)  # How to Solve Problems
-time_to_study += datetime.timedelta(hours=3, minutes=0)  # Work Session: Mad Libs Continued
-time_to_study += datetime.timedelta(hours=0, minutes=20)  # Getting Started
-time_to_study += datetime.timedelta(hours=2, minutes=0)  # Mini-Project: Take a Break
+time_to_study += datetime.timedelta(hours=0, minutes=0)  # Structured Data: Lists & For Loops
+time_to_study += datetime.timedelta(hours=0, minutes=0)  # How to Solve Problems
+time_to_study += datetime.timedelta(hours=0, minutes=0)  # Work Session: Mad Libs Continued
+time_to_study += datetime.timedelta(hours=0, minutes=0)  # Getting Started
+time_to_study += datetime.timedelta(hours=1, minutes=50)  # Mini-Project: Take a Break
 time_to_study += datetime.timedelta(hours=2, minutes=0)  # Mini-Project: Secret Message
 time_to_study += datetime.timedelta(hours=4, minutes=0)  # Mini-Project: Draw Turtles
 time_to_study += datetime.timedelta(hours=1, minutes=0)  # Mini-Project: Send a Text
@@ -53,7 +53,7 @@ if time_to_study.total_seconds() == 0 and days_to_deadline > 0:
     mess = "Great! You have D days remaining to deadline, do some practice, revision && relax ;)"
     print mess.replace("D", str(days_to_deadline))
 else:
-    mess = "You have D days remaining to finish the course!"
+    mess = "You have D days remaining to finish the course before " + str(deadline)
     print mess.replace("D", str(days_to_deadline))
     mess = "And you have T of course/quiz materials to finish!"
     print mess.replace("T", format_time_hh_mm(time_to_study))
