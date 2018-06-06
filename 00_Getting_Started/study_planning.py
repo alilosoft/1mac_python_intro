@@ -18,23 +18,23 @@ if days_to_deadline < 0:
 # Calculating the time remaining to complete the course
 # Replace hours and minutes with your values for each course
 time_to_study = datetime.timedelta(hours=0, minutes=0)  # Mindset
-time_to_study += datetime.timedelta(hours=0, minutes=0)  # Getting Set Up with Python
-time_to_study += datetime.timedelta(hours=0, minutes=0)  # Introduction to Serious Programming
-time_to_study += datetime.timedelta(hours=0, minutes=0)  # Work Session: Basic Debugging
-time_to_study += datetime.timedelta(hours=0, minutes=0)  # Variables & Strings
-time_to_study += datetime.timedelta(hours=0, minutes=0)  # Work Session: String Manipulation
-time_to_study += datetime.timedelta(hours=0, minutes=0)  # Input -> Function -> Output
-time_to_study += datetime.timedelta(hours=0, minutes=0)  # Work Session: Print vs Return
-time_to_study += datetime.timedelta(hours=0, minutes=0)  # Control Flow: If Statements & While Loops 4:30
-time_to_study += datetime.timedelta(hours=0, minutes=0)  # Deep Debugging
-time_to_study += datetime.timedelta(hours=0, minutes=0)  # Work Session: Mad Libs Generator
-time_to_study += datetime.timedelta(hours=0, minutes=0)  # Structured Data: Lists & For Loops
-time_to_study += datetime.timedelta(hours=0, minutes=0)  # How to Solve Problems
-time_to_study += datetime.timedelta(hours=0, minutes=0)  # Work Session: Mad Libs Continued
-time_to_study += datetime.timedelta(hours=0, minutes=0)  # Getting Started
-time_to_study += datetime.timedelta(hours=1, minutes=50)  # Mini-Project: Take a Break
-time_to_study += datetime.timedelta(hours=2, minutes=0)  # Mini-Project: Secret Message
-time_to_study += datetime.timedelta(hours=4, minutes=0)  # Mini-Project: Draw Turtles
+# time_to_study += datetime.timedelta(hours=0, minutes=0)  # Getting Set Up with Python
+# time_to_study += datetime.timedelta(hours=0, minutes=0)  # Introduction to Serious Programming
+# time_to_study += datetime.timedelta(hours=0, minutes=0)  # Work Session: Basic Debugging
+# time_to_study += datetime.timedelta(hours=0, minutes=0)  # Variables & Strings
+# time_to_study += datetime.timedelta(hours=0, minutes=0)  # Work Session: String Manipulation
+# time_to_study += datetime.timedelta(hours=0, minutes=0)  # Input -> Function -> Output
+# time_to_study += datetime.timedelta(hours=0, minutes=0)  # Work Session: Print vs Return
+# time_to_study += datetime.timedelta(hours=0, minutes=0)  # Control Flow: If Statements & While Loops 4:30
+# time_to_study += datetime.timedelta(hours=0, minutes=0)  # Deep Debugging
+# time_to_study += datetime.timedelta(hours=0, minutes=0)  # Work Session: Mad Libs Generator
+# time_to_study += datetime.timedelta(hours=0, minutes=0)  # Structured Data: Lists & For Loops
+# time_to_study += datetime.timedelta(hours=0, minutes=0)  # How to Solve Problems
+# time_to_study += datetime.timedelta(hours=0, minutes=0)  # Work Session: Mad Libs Continued
+# time_to_study += datetime.timedelta(hours=0, minutes=0)  # Getting Started
+# time_to_study += datetime.timedelta(hours=1, minutes=50)  # Mini-Project: Take a Break
+# time_to_study += datetime.timedelta(hours=2, minutes=0)  # Mini-Project: Secret Message
+time_to_study += datetime.timedelta(hours=3, minutes=30)  # Mini-Project: Draw Turtles
 time_to_study += datetime.timedelta(hours=1, minutes=0)  # Mini-Project: Send a Text
 time_to_study += datetime.timedelta(hours=1, minutes=0)  # Mini-Project: Profanity Editor
 time_to_study += datetime.timedelta(hours=4, minutes=0)  # Movie Website Creation
